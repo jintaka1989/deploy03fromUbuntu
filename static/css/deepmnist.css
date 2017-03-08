@@ -1,0 +1,62 @@
+.page-header {
+    background-color: #ff9400;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+h2 {
+  margin-left: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.deepmnist{
+      float: left;
+      /*親がrelativeだと子のabsoluteの基準位置は、親要素がstatic以外であれば親、それ以外はウィンドウ左上*/
+      position: relative;
+      /*text-align:center;;*/
+}
+
+.canvasmain{
+  /*display: inline-block;*/
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.canvasmenus{
+  /*display: inline-block;*/
+  position: absolute;
+  width: 100px;
+  top: 20px;
+  left: 400px;
+}
+
+#canvasmenu{
+    font-size: 24pt;
+}
+
+.canvassub{
+  /*display: inline-block;*/
+  position: absolute;
+  top: 20px;
+  left: 600px;
+}
+.deepmnist_edit{
+  position: absolute;
+  top: 480px;
+  left: 50px;
+}

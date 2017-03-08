@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Django Tutorial blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/deepmnist.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/deepmnist.css' %}">
+        <script type="text/javascript" src="{% static 'javascript/paint.js' %}">
+        </script>
+    </head>
+    <body onload="draw();">
+    <div class="page-header">
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <h1><a href="/">Django Tutorial Blog</a></h1>
+    </div>
+    <h2>
+      <strong>DeepMnistGuiApp</strong>
+    </h2>
+    <div class="deepmnist"></div>
+    </body>
+    </html>
+{# <input type="submit" name="buttom_1" value="recognize_btn">#}
